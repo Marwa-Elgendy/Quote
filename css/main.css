@@ -1,0 +1,57 @@
+.Quote{
+  min-height: 100vh;
+  background:linear-gradient(rgba(255, 255, 255, 0.518) ,rgba(255, 255, 255, 0.532)), url(../img/Screenshot\ 2023-07-13\ 013210.png) center;
+  background-size: cover ;
+  background-attachment: fixed; 
+
+}
+.font{
+  font-family: "Montserrat", sans-serif;
+}
+
+.Quote .container h1{
+  font-size: 80px;
+  font-weight: 800;
+  color:  rgb(105, 82, 54);
+}
+
+.Quote .container p {
+  font-size: 32px;
+  color:  rgb(82, 65, 46);
+}
+
+.Quote .container .Quote-contact{
+  width: 80%;
+  margin: auto;
+}
+
+.Quote .container button {
+  width: 180px;
+  height: 60px;
+  background-color: rgb(145, 115, 79);
+  color: white;
+  border: 1px solid  rgb(145, 115, 79);
+  border-radius: 5px 25px;
+  transition: all 0.5s;
+}
+
+.Quote .container button:hover{
+  background-color:  rgb(105, 82, 54);
+}
+@media screen  and (max-width:1080px){
+  .Quote .container h1{
+    font-size: 55px;}
+
+    .Quote .container p {
+      font-size: 25px;}
+
+}
+
+@media screen  and (max-width:700px){
+
+  .Quote .container h1{
+    font-size: 50px;}
+
+    .Quote .container p {
+      font-size: 22px;}
+}
